@@ -1,0 +1,20 @@
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Environment variables & secrets
+.env
+
+# Database files
+data/*.db
+
+# IDE and OS files
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini

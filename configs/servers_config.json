@@ -1,0 +1,148 @@
+{
+    "global": {
+        "name": "HEAVEN",
+        "data": "global_data.db",
+        "global_roles": {
+            "owner": {
+                "name": "Владелец",
+                "description": "Роль владельца сети",
+                "permissions": "all",
+                "vote_weight": 7
+            },
+            "coowner": {
+                "name": "Со-владелец",
+                "description": "Роль со-владельца сети",
+                "permissions": "all",
+                "vote_weight": 6
+            },
+            "head_of_administration": {
+                "name": "Управляющий Администрацией",
+                "description": "Роль Управляющего Администрацией",
+                "permissions": "all",
+                "vote_weight": 6
+            },
+            "head_of_curators": {
+                "name": "Управляющий Кураторами",
+                "description": "Роль Управляющего Кураторами",
+                "permissions": "all",
+                "vote_weight": 6
+            },
+            "admin": {
+                "name": "Администратор",
+                "description": "Роль администратора сети",
+                "permissions": "all",
+                "vote_weight": 5
+            },
+            "curator": {
+                "name": "Куратор",
+                "description": "Роль куратора сети",
+                "permissions": "all",
+                "vote_weight": 4
+            }
+        }
+    },
+    "soon": {
+        "name": "SOON",
+        "description": "",
+        "server_id": "1369656294083924050",
+        "data": "soon_data.db",
+        "roles": {
+            "head_of_project": {
+                "name": "Глава Проекта",
+                "description": "Роль Главы Проекта",
+                "permissions": "all",
+                "vote_weight": 4
+            },
+            "curator": {
+                "name": "Куратор Проекта",
+                "description": "Роль Куратора Проекта",
+                "permissions": "all",
+                "vote_weight": 4
+            },
+            "head_of_administration": {
+                "name": "Глава Администрации Проекта",
+                "description": "Роль Главы Администрации Проекта",
+                "permissions": "all",
+                "vote_weight": 3
+            },
+            "admin": {
+                "name": "Администрация Проекта",
+                "description": "Роль Администрации Проекта",
+                "permissions": "all",
+                "vote_weight": 2
+            },
+            "mod": {
+                "name": "Модератор Проекта",
+                "description": "Роль Модератора Проекта",
+                "permissions": "all",
+                "vote_weight": 1
+            }
+        }
+    },
+    "aetherial": {
+        "name": "Aetherial Project",
+        "description": "Майнкрафт сервер",
+        "server_id": "1403486877897723945",
+        "data": "aetherial_data.db",
+        "roles": {
+            "head_of_project": {
+                "name": "Глава Проекта",
+                "description": "Роль Главы Проекта",
+                "permissions": "all",
+                "vote_weight": 4
+            },
+            "curator": {
+                "name": "Куратор Проекта",
+                "description": "Роль Куратора Проекта",
+                "permissions": "all",
+                "vote_weight": 4
+            },
+            "assistant_head_of_project": {
+                "name": "Помощник Главы Проекта",
+                "description": "Роль Помощника Главы Проекта",
+                "permissions": "all",
+                "vote_weight": 3
+            },
+            "head_of_administration": {
+                "name": "Глава Администрации Проекта",
+                "description": "Роль Главы Администрации Проекта",
+                "permissions": "all",
+                "vote_weight": 3
+            },
+            "head_of_moderation": {
+                "name": "Глава Модерации Проекта",
+                "description": "Роль Главы Модерации Проекта",
+                "permissions": "all",
+                "vote_weight": 3
+            },
+            "admin": {
+                "name": "Администрация Проекта",
+                "description": "Роль Администрации Проекта",
+                "permissions": "all",
+                "vote_weight": 2
+            },
+            "mod": {
+                "name": "Модератор Проекта",
+                "description": "Роль Модератора Проекта",
+                "permissions": "all",
+                "vote_weight": 1
+            },
+            "intern": {
+                "name": "Стажер Проекта",
+                "description": "Роль Стажера Проекта",
+                "permissions": "all",
+                "vote_weight": 1
+            },
+            "content_maker": {
+                "name": "Контент-мейкер Проекта",
+                "description": "Роль Контент-мейкера Проекта",
+                "permissions": "all",
+                "vote_weight": 1
+            }
+        }
+    },
+    "praise": {
+        "name": "PRAISE",
+        "data": "praise_data.db"
+    }
+}
